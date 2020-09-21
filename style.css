@@ -31,5 +31,31 @@ body {
 }
 
 #email:hover {
-	color: black;
+	color: #999999;
+}
+
+#CV {
+	font-size: 33px;
+	font-weight: bold;
+}
+
+#CV a:hover {
+	text-decoration: none;
+	color: #bbbbbb;
+}
+
+
+
+p{
+	text-align: center;
+}
+
+.horizontal-list {
+	text-align: justify;
+	list-style: none;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 20px;
 }
