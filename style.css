@@ -34,14 +34,17 @@ body{
 }
 
 #linkedin:hover{
+	text-decoration: none;
 	color: #0E76A8;
 }
 
 #github:hover{
+	text-decoration: none;
 	color: #211F1F;
 }
 
 #email:hover{
+	text-decoration: none;
 	color: #999999;
 }
 
