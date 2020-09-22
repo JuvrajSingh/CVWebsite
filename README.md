@@ -1,2 +1,2 @@
 # MyWebsite
-Website CV to learn Web Design
+Website CV to learn Responsive Web Design
