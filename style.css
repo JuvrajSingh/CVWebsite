@@ -1,61 +1,98 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: justify;
-  max-width: 800px;
-  margin: auto;
+body{
+	padding: 15px 10px;
+	text-align: justify;
+	max-width: 800px;
+	margin: auto;
+}
+
+.navigation h1{
+	text-align: center;
+}
+
+.icon-list{
+	display: table;
+	margin: 0 auto;
+}
+
+.navigation ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 .navigation li{
-	display: inline-block;
-	margin: 6px;
-	list-style: none;
+	display: inline;
+	margin: 3px;
 }
 
-.icon li a{
+.navigation li a{
 	color: grey;
 	transition: all ease-in-out 150ms;
 }
 
-#linkedin:hover {
+#linkedin:hover{
 	color: #0E76A8;
 }
 
-#github:hover {
+#github:hover{
 	color: #211F1F;
 }
 
-#email:hover {
+#email:hover{
 	color: #999999;
 }
 
-#CV {
+#CV{
 	font-size: 33px;
 	font-weight: bold;
+	display: inline;
 }
 
-#CV a:hover {
+#CV a:hover{
 	text-decoration: none;
 	color: #bbbbbb;
 }
-
 
 
 p{
 	text-align: center;
 }
 
-.horizontal-list {
-	text-align: justify;
-	list-style: none;
+.horizontal-list{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 }
 
-.horizontal-list li{
-	display: inline-block;
-	margin: 20px;
+
+
+@media only screen and (min-width: 640px) {
+	body{
+		padding: 20px 25px;
+	}
+	
+	.navigation li{
+		margin: 6px;
+	}
+	
+	.navigation h1{
+		float: left;
+	}
+
+	.icon-list{
+		display: inline-block;
+		float: right;
+	}
+	
+	.page-body{
+		float: left;
+	}
+	
+	.horizontal-list li{
+		margin: 0px 40px 0px 0px;
+		display: inline-block;
+	}
 }
